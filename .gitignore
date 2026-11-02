@@ -1,0 +1,39 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local test credentials
+backend/.local-test-credentials.txt
+.local-test-credentials.txt
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Database (root only — do NOT ignore src/data/)
+/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads (keep structure)
+uploads/*
+!uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
